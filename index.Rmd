@@ -30,8 +30,7 @@ options(htmltools.dir.version = FALSE)
 - Eclatement de la documentation des écosystèmes `R` et `Python` ; <br>
 - Barrière linguistique : la grande majorité de la documentation est en anglais ; <br>
 - Niveaux hétérogènes
-<br>
-<br>
+<br><br>
 
 --
 
@@ -52,6 +51,7 @@ que pour un projet d'application
 + Environnements normalisés: pas de problèmes d'installation de *packages*
 + Formation aux bonnes pratiques: modularité, contrôle de version, stockage séparé du code
 + `Funcamp` pour découvrir sous forme ludique `R` (avec des missions à la `Zelda`)
+<br><br>
 
 --
 
@@ -86,17 +86,41 @@ que pour un projet d'application
 name: python
 # Ressources Python `r fontawesome::fa("fab fa-python", fill = "white")`: cours de l'ENSAE
 
+**Un cours complet pour la _data-science_** :
+
++ Manipulation et structuration de données ;
++ Visualisation ;
++ Modélisation (économétrie et _machine learning_) ;
++ Données textuelles (NLP) ;
+<br>
+
+--
+
+**S'adapter à la philosophie de la data-science** :
+
++ Reproductibilité 
++ Partage des codes ()
++ Evoquer l'enjeu 
+<br>
+
+--
+
+**Mise à disposition facilitée**
+
 
 
 ---
 name: utilitr
 # Ressources `r fontawesome::fa("fab fa-r-project", fill = "white")`: `utilitR`
 
+<br><br>
+
 ** 1. Un positionnement différent par rapport à une formation**:
 
 + Approche par les cas d'usage ;
 + Recommandations et conseils issus de débats sur [Github](https://github.com/InseeFrLab/utilitR) ;
 + Point d'entrée avec de nombreuses références;
+<br><br>
 
 ** 2. Une documentation complète pour statisticiens/_data-scientists_ **;
 
@@ -104,7 +128,6 @@ name: utilitr
 + Bientôt un guide des bonnes pratiques
 + Aussi des éléments sur `Git`.
 
-<br><br>
 
 **Rejoignez l'équipe des contributeurs ! **
 

@@ -35,4 +35,4 @@ jobs:
         run: |
           npm install --unsafe-perm=true netlify-cli -g
           netlify init
-          netlify deploy --prod --message "Deploy slides"
+          netlify deploy --prod
