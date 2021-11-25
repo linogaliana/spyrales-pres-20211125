@@ -86,12 +86,19 @@ que pour un projet d'application
 name: python
 # Ressources Python `r fontawesome::fa("fab fa-python", fill = "white")`: cours de l'ENSAE
 
-ff
+
 
 ---
 name: utilitr
 # Ressources `r fontawesome::fa("fab fa-r-project", fill = "white")`: `utilitR`
 
+* Une documentation complète pour statisticiens/*data-scientists* ;
+* Approche par les cas d'usage ;
+* Recommandations et conseils issus de débats ;
+* Des éléments sur `Git`.
+<br><br>
+
+**Tout est disponible sur [https://www.utilitr.org](https://www.utilitr.org)**
 
 ---
 name: r
