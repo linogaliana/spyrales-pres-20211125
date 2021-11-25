@@ -1,0 +1,100 @@
+---
+title : "Quelques ressources R et Python utiles pour s'autoformer"
+subtitle : "Rencontres Spyrales"
+author : "Lino Galiana, Olivier Chantrel"
+institute : "Insee, MTES"
+date : "30 novembre 2021"
+output :
+    utilitr::utilitr_presentation:
+        css:
+        - css/custom.css
+        nature:
+          highlightStyle: github
+          highlightLines: true
+          countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+
+
+# Enjeu
+
+## Pourquoi ne pas se contenter des documentations existantes ?
+
+
+**1. Cibler les ressources pertinentes**
+
+- Eclatement de la documentation des écosystèmes `R` et `Python` ; <br>
+- Barrière linguistique : la grande majorité de la documentation est en anglais ; <br>
+- Niveaux hétérogènes
+<br>
+<br>
+
+--
+
+**2. Bénéficier de l'expérience d'utilisateurs** :
+
+- Diversité des cas d'usage de `R` ou `Python` dans le service public ; <br>
+- Multiplicité de *packages*, de qualité variable et parfois redondants ; <br>
+- Utiliser un langage pour un projet statistique n'implique pas les mêmes pratiques
+que pour un projet d'application
+
+---
+# Panorama incomplet des ressources disponibles (1/2)
+
+
+**1. Modules d'autoformation sur [sspcloud.fr/documentation](https://www.sspcloud.fr/documentation);**
+
++ Notebooks pédagogiques, différents niveaux accessibles
++ Environnements normalisés: pas de problèmes d'installation de *packages*
++ Formation aux bonnes pratiques: modularité, contrôle de version, stockage séparé du code
++ `Funcamp` pour découvrir sous forme ludique `R` (avec des missions à la `Zelda`)
+
+--
+
+**2. Ressources `Python` `r fontawesome::fa("fab fa-python")` (et `Git` `r fontawesome::fa("fab fa-git-alt")`):**
+
++ Formations datascientest ;
++ Initiation à Python sur [sspcloud.fr/documentation](https://www.sspcloud.fr/documentation) ;
++ Perfectionnement avec le cours de [2A ENSAE "Python pour data scientists et économistes"](https://linogaliana-teaching.netlify.app/) [`r emo::ji("zoom")`](#python)
+    
+---
+# Panorama incomplet des ressources disponibles (1/2)
+
+**3. Ressources `R` (et `Git` `r fontawesome::fa("fab fa-git-alt")`):**
+
++ [Portail MTES](https://mtes-mct.github.io/parcours-r/) [`r emo::ji("zoom")`](#r) ;
++ Formations sur des points plus spécifiques. ex: [Travail collaboratif avec R](https://linogaliana.gitlab.io/collaboratif/)
++ Et bien d'autres formations de qualité (certaines référencées par [spyrales.fr](https://www.spyrales.fr/))
+
+
+--
+# Panorama incomplet des ressources disponibles (2/2)
+
+**4. La documentation collaborative et open-source [`utilitR`](https://www.utilitr.org/) [`r emo::ji("zoom")`](#utilitr)**:
+
++ Née à l'Insee, le public visé est plus large (tout utilisateur de données avec `R`) ;
++ Couvrir des cas d'usage courants des utilisateurs de données ;
++ A venir un guide des bonnes pratiques `R` et `Python` orienté projet de données ;
++ Déjà plus de 25 contributeurs, rejoignez-nous !
+
+
+---
+name: python
+# Ressources Python `r fontawesome::fa("fab fa-python", fill = "white")`: cours de l'ENSAE
+
+ff
+
+---
+name: utilitr
+# Ressources `r fontawesome::fa("fab fa-r-project", fill = "white")`: `utilitR`
+
+
+---
+name: r
+# Ressources `r fontawesome::fa("fab fa-r-project", fill = "white")`: le portail MTES
+
+
