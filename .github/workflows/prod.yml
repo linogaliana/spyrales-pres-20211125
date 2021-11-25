@@ -22,7 +22,6 @@ jobs:
           Rscript -e "remotes::install_deps(dependencies = TRUE)"
       - name: Render
         run: |
-          mkdir -p public
           Rscript -e 'rmarkdown::render("index.Rmd")'
       - name: Install npm
         uses: actions/setup-node@v1

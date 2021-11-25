@@ -92,13 +92,21 @@ name: python
 name: utilitr
 # Ressources `r fontawesome::fa("fab fa-r-project", fill = "white")`: `utilitR`
 
-* Une documentation complète pour statisticiens/*data-scientists* ;
-* Approche par les cas d'usage ;
-* Recommandations et conseils issus de débats ;
-* Des éléments sur `Git`.
+** 1. Un positionnement différent par rapport à une formation**:
+
++ Approche par les cas d'usage ;
++ Recommandations et conseils issus de débats sur [Github](https://github.com/InseeFrLab/utilitR) ;
++ Point d'entrée avec de nombreuses références;
+
+** 2. Une documentation complète pour statisticiens/_data-scientists_ **;
+
++ Tout est disponible sur [https://www.utilitr.org](https://www.utilitr.org)
++ Bientôt un guide des bonnes pratiques
++ Aussi des éléments sur `Git`.
+
 <br><br>
 
-**Tout est disponible sur [https://www.utilitr.org](https://www.utilitr.org)**
+**Rejoignez l'équipe des contributeurs ! **
 
 ---
 name: r
