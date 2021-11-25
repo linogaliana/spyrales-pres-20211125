@@ -19,6 +19,7 @@ jobs:
       - name: Install Dependencies
         run: |
           Rscript -e "install.packages(c('remotes'))"
+          Rscript -e "remotes::install_deps(dependencies = TRUE)"
       - name: Render
         run: |
           mkdir -p public
