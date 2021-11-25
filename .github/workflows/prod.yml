@@ -1,0 +1,37 @@
+name: Slides
+
+on:
+  push:
+    branches:
+      - master
+
+
+jobs:
+  xaringan-presentations:
+    if: "!contains(github.event.commits[0].message, '[skip ci]')"
+    runs-on: ubuntu-latest
+    container: inseefrlab/utilitr:latest
+    steps:
+      - name: Checkout Repository
+        env:
+          GITHUB_PAT: ${{ secrets.PAT }}
+        uses: actions/checkout@master
+      - name: Install Dependencies
+        run: |
+          Rscript -e "install.packages(c('remotes'))"
+          Rscript -e "remotes::install_deps(dependencies = TRUE)"
+      - name: Render
+        run: |
+          mkdir -p public
+          Rscript -e 'rmarkdown::render("index.Rmd")'
+      - name: Install npm
+        uses: actions/setup-node@v1
+      - name: Deploy to Netlify
+        # NETLIFY_AUTH_TOKEN and NETLIFY_SITE_ID added in the repo's secrets
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        run: |
+          npm install --unsafe-perm=true netlify-cli -g
+          netlify init
+          netlify deploy --prod --message "Deploy slides"
