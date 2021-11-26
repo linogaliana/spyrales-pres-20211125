@@ -25,6 +25,11 @@ jobs:
       - name: Render
         run: |
           Rscript -e 'rmarkdown::render("index.Rmd")'
+      - uses: actions/upload-artifact@v2
+        with:
+          name: Slides
+          path: ./
+          retention-days: 3
       - name: Install npm
         uses: actions/setup-node@v1
       - name: Deploy to Netlify
