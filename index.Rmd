@@ -57,7 +57,7 @@ que pour un projet d'application
 
 **2. Ressources `Python` `r fontawesome::fa("fab fa-python")` (et `Git` `r fontawesome::fa("fab fa-git-alt")`):**
 
-+ Formations datascientest ;
++ Formations datascientest proposées par Spyrales ;
 + Initiation à Python sur [sspcloud.fr/documentation](https://www.sspcloud.fr/documentation) ;
 + Perfectionnement avec le cours de [2A ENSAE "Python pour data scientists et économistes"](https://linogaliana-teaching.netlify.app/) [`r emo::ji("zoom")`](#python)
     
