@@ -122,9 +122,8 @@ name: python
 name: utilitr
 # Ressources `r fontawesome::fa("fab fa-r-project", fill = "white")`: `utilitR`
 
-<br><br>
 
-** 1. Un positionnement différent par rapport à une formation**:
+** 1. Un positionnement différent de celui d'une formation**:
 
 + Approche par les cas d'usage ;
 + Recommandations et conseils issus de débats sur [Github](https://github.com/InseeFrLab/utilitR) ;
@@ -137,8 +136,12 @@ name: utilitr
 + Bientôt un guide des bonnes pratiques
 + Aussi des éléments sur `Git`.
 
-
+<br><br>
 **Rejoignez l'équipe des contributeurs ! **
+
+```{r, echo = FALSE, out.width="15%", fig.align = 'right'}
+knitr::include_graphics("https://raw.githubusercontent.com/InseeFrLab/utilitR/master/resources/logo-utilitr.png")
+```
 
 ---
 name: r
