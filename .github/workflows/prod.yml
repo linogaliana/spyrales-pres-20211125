@@ -40,4 +40,4 @@ jobs:
         run: |
           npm install --unsafe-perm=true netlify-cli -g
           netlify init
-          netlify deploy --prod --dir="." --message "Deploy master"
+          #netlify deploy --prod --dir="." --message "Deploy master"
