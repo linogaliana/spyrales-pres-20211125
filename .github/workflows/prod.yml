@@ -38,6 +38,7 @@ jobs:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
         run: |
-          npm install --unsafe-perm=true netlify-cli -g
-          netlify init
+          echo "skip"
+          #npm install --unsafe-perm=true netlify-cli -g
+          #netlify init
           #netlify deploy --prod --dir="." --message "Deploy master"
