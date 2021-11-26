@@ -84,49 +84,59 @@ que pour un projet d'application
 
 ---
 name: python
-# Ressources Python `r fontawesome::fa("fab fa-python", fill = "white")`: cours de l'ENSAE
+# Ressources `r fontawesome::fa("fab fa-python", fill = "white")`: cours de l'ENSAE
 
 [https://linogaliana-teaching.netlify.app/](https://linogaliana-teaching.netlify.app/)
 ([dépôt `r fontawesome::fa("fab fa-github")`](https://github.com/linogaliana/python-datascientist))
 <br><br> 
 
-**1. Un cours complet pour la _data-science_** :
+**Un cours complet pour la _data-science_** :
 
 + Manipulation et structuration de données ;
 + Visualisation ;
 + Modélisation (économétrie et _machine learning_) ;
 + Données textuelles (NLP) ;
 + Git `r fontawesome::fa("fab fa-git-alt")` et Github `r fontawesome::fa("fab fa-github")`.
-<br>
 
---
+
+```{r, echo = FALSE, out.width = "40%", fig.align = "center"}
+knitr::include_graphics("https://linogaliana-teaching.netlify.app/home/word_hu0f2ad2f0666a655e142df16fc7085a46_395838_1200x0_resize_lanczos_2.png")
+```
+
+
+---
+# Ressources `r fontawesome::fa("fab fa-python", fill = "white")`: cours de l'ENSAE
+
+[https://linogaliana-teaching.netlify.app/](https://linogaliana-teaching.netlify.app/)
+([dépôt `r fontawesome::fa("fab fa-github")`](https://github.com/linogaliana/python-datascientist))
+<br><br> 
 
 **Introduire à la philosophie de la data-science** :
 
 + Reproductibilité et pérennité des projets
 + Versioning et partage des codes
 + Réduction des coûts de mise en prod
-<br>
+<br><br>
 
 --
 
 **Mise à disposition tutoriels et exercices facilitée**:
 
+```{r, echo = FALSE}
+knitr::include_graphics("badges.png")
+```
 
-<a href="https://github.com/linogaliana/python-datascientist/blob/master/content/course/manipulation/02a_pandas_tutorial.Rmd.ipynb" class="github"><i class="fab fa-github"></i></a>
-[![Download](https://img.shields.io/badge/Download-Notebook-important?logo=Jupyter)](https://downgit.github.io/#/home?url=https://github.com/linogaliana/python-datascientist/blob/master/content/course/manipulation/02a_pandas_tutorial.Rmd.ipynb)
-[![nbviewer](https://img.shields.io/badge/Visualize-nbviewer-blue?logo=Jupyter)](https://nbviewer.jupyter.org/github/linogaliana/python-datascientist/blob/master/content/course/manipulation/02a_pandas_tutorial.Rmd.ipynb)
-[![Onyxia](https://img.shields.io/badge/SSPcloud-Tester%20via%20SSP--cloud-informational&color=yellow?logo=Python)](https://datalab.sspcloud.fr/launcher/inseefrlab-helm-charts-datascience/jupyter?onyxia.friendlyName=Â«python-datascientistÂ»&resources.requests.memory=Â«4GiÂ»&security.allowlist.enabled=false&init.personalInit=Â«https://raw.githubusercontent.com/linogaliana/python-datascientist/master/init_onyxia.shÂ»)
-[![githubdev](https://open.vscode.dev/badges/open-in-vscode.svg)](https://github.dev/linogaliana/python-datascientist/content/course/manipulation/02a_pandas_tutorial.Rmd.ipynb)
-
-
+[Page en question: https://linogaliana-teaching.netlify.app/webscraping/](https://linogaliana-teaching.netlify.app/webscraping/)
 
 ---
 name: utilitr
 # Ressources `r fontawesome::fa("fab fa-r-project", fill = "white")`: `utilitR`
 
+[https://www.utilitr.org/](https://www.utilitr.org/)
+([dépôt `r fontawesome::fa("fab fa-github")`](https://github.com/InseeFrLab/utilitR))
+<br><br> 
 
-** 1. Un positionnement différent de celui d'une formation**:
+** 1. Un positionnement différent par rapport à une formation**:
 
 + Approche par les cas d'usage ;
 + Recommandations et conseils issus de débats sur [Github](https://github.com/InseeFrLab/utilitR) ;
@@ -139,7 +149,7 @@ name: utilitr
 + Bientôt un guide des bonnes pratiques
 + Aussi des éléments sur `Git`.
 
-<br><br>
+<br>
 **Rejoignez l'équipe des contributeurs ! **
 
 ```{r, echo = FALSE, out.width="15%", fig.align = 'right'}
@@ -150,4 +160,37 @@ knitr::include_graphics("https://raw.githubusercontent.com/InseeFrLab/utilitR/ma
 name: r
 # Ressources `r fontawesome::fa("fab fa-r-project", fill = "white")`: le portail MTES
 
+[https://mtes-mct.github.io/parcours-r/](https://mtes-mct.github.io/parcours-r/)
+([dépôt `r fontawesome::fa("fab fa-github")`](https://github.com/InseeFrLab/utilitR))
+<br><br> 
 
+**Un portail d'(auto)formation avec une grande diversité de modules:**
+
+- Modules introductifs (modules *"socle"*): intro à la programmation, analyse de données
+- Modules thématiques (modules *"à la carte"*): datavisualisation, RMarkdown, analyse spatiale...
+<br>
+
+```{r, echo = FALSE, fig.align ="center"}
+knitr::include_graphics("mtes.png")
+```
+
+---
+# Ressources `r fontawesome::fa("fab fa-r-project", fill = "white")`: le portail MTES
+
+[https://mtes-mct.github.io/parcours-r/](https://mtes-mct.github.io/parcours-r/)
+([dépôt `r fontawesome::fa("fab fa-github")`](https://github.com/InseeFrLab/utilitR))
+<br><br> 
+
+**Retour d'expérience:**
+
+- 120 agents formés en 2021 via le parcours `R` ;
+- Une vingtaine de formateurs du `MTE` ; 
+- Une petite dizaine d’agents produisent les supports ;
+- Des formations dispensées principalement à distance ;
+- Et des formations avancées dispensées à quelques agents par un prestataire extérieur.
+<br><br>
+
+--
+
+**Une stratégie plus globale:**
+- [La feuille de route du pôle ministériel](https://www.ecologie.gouv.fr/feuille-route-donnee-des-algorithmes-et-des-codes-sources)
