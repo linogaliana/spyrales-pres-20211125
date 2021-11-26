@@ -86,34 +86,37 @@ que pour un projet d'application
 name: python
 # Ressources Python `r fontawesome::fa("fab fa-python", fill = "white")`: cours de l'ENSAE
 
-**Un cours complet pour la _data-science_** :
+[https://linogaliana-teaching.netlify.app/](https://linogaliana-teaching.netlify.app/)
+([dépôt `r fontawesome::fa("fab fa-github")`](https://github.com/linogaliana/python-datascientist))
+<br><br> 
+
+**1. Un cours complet pour la _data-science_** :
 
 + Manipulation et structuration de données ;
 + Visualisation ;
 + Modélisation (économétrie et _machine learning_) ;
 + Données textuelles (NLP) ;
++ Git `r fontawesome::fa("fab fa-git-alt")` et Github `r fontawesome::fa("fab fa-github")`.
 <br>
 
 --
 
-**S'adapter à la philosophie de la data-science** :
+**Introduire à la philosophie de la data-science** :
 
-+ Reproductibilité 
-+ Partage des codes ()
-+ Evoquer l'enjeu 
++ Reproductibilité et pérennité des projets
++ Versioning et partage des codes
++ Réduction des coûts de mise en prod
 <br>
 
 --
 
-**Mise à disposition facilitée**
+**Mise à disposition tutoriels et exercices facilitée**:
 
 
 <a href="https://github.com/linogaliana/python-datascientist/blob/master/content/course/manipulation/02a_pandas_tutorial.Rmd.ipynb" class="github"><i class="fab fa-github"></i></a>
 [![Download](https://img.shields.io/badge/Download-Notebook-important?logo=Jupyter)](https://downgit.github.io/#/home?url=https://github.com/linogaliana/python-datascientist/blob/master/content/course/manipulation/02a_pandas_tutorial.Rmd.ipynb)
 [![nbviewer](https://img.shields.io/badge/Visualize-nbviewer-blue?logo=Jupyter)](https://nbviewer.jupyter.org/github/linogaliana/python-datascientist/blob/master/content/course/manipulation/02a_pandas_tutorial.Rmd.ipynb)
 [![Onyxia](https://img.shields.io/badge/SSPcloud-Tester%20via%20SSP--cloud-informational&color=yellow?logo=Python)](https://datalab.sspcloud.fr/launcher/inseefrlab-helm-charts-datascience/jupyter?onyxia.friendlyName=Â«python-datascientistÂ»&resources.requests.memory=Â«4GiÂ»&security.allowlist.enabled=false&init.personalInit=Â«https://raw.githubusercontent.com/linogaliana/python-datascientist/master/init_onyxia.shÂ»)
-<br>
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/linogaliana/python-datascientist/blob/master/content/course/manipulation/02a_pandas_tutorial.Rmd.ipynb)
 [![githubdev](https://open.vscode.dev/badges/open-in-vscode.svg)](https://github.dev/linogaliana/python-datascientist/content/course/manipulation/02a_pandas_tutorial.Rmd.ipynb)
 
 
